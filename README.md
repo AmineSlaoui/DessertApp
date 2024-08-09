@@ -13,10 +13,10 @@ This app was developed using Swift and Swift UI. It allows user to browse throug
 ### Setup
 
 1. Clone the repo
-   '''
+   ```
    git clone https://github.com/AmineSlaoui/DessertApp
    cd "Fetch Challenge"
-   '''
+   ```
 2. Open project in Xcode
 3. Build and run project
 
