@@ -35,8 +35,8 @@ struct MealDetail: Decodable {
         var tempIngredients: [String: String] = [:]
         
         for i in 1...9 {
-            if let ingredientKey = CodingKeys(rawValue: "strIngredients\(i)"),
-               let measurementKey = CodingKeys(rawValue: "strMeasurements\(i)"),
+            if let ingredientKey = CodingKeys(rawValue: "strIngredient\(i)"),
+               let measurementKey = CodingKeys(rawValue: "strMeasure\(i)"),
                let getIngredient = try? container.decode(String.self, forKey: ingredientKey),
                let measure = try? container.decode(String.self, forKey: measurementKey),
                
@@ -46,6 +46,7 @@ struct MealDetail: Decodable {
             }
             
         }
+        print("Ingredients are: \(tempIngredients)")
         ingredients = tempIngredients
     }
 }

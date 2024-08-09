@@ -86,7 +86,7 @@
 		B6C6568E2C651C2B00E8413E = {
 			isa = PBXGroup;
 			children = (
-				B6C656992C651C2B00E8413E /* FetchChallenge */,
+				B6C656992C651C2B00E8413E /* Fetch Challenge */,
 				B6C656AA2C651C2E00E8413E /* Fetch ChallengeTests */,
 				B6C656B42C651C2E00E8413E /* Fetch ChallengeUITests */,
 				B6C656982C651C2B00E8413E /* Products */,
@@ -103,7 +103,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B6C656992C651C2B00E8413E /* FetchChallenge */ = {
+		B6C656992C651C2B00E8413E /* Fetch Challenge */ = {
 			isa = PBXGroup;
 			children = (
 				B6C6569A2C651C2B00E8413E /* Fetch_ChallengeApp.swift */,
@@ -114,7 +114,7 @@
 				B6C6569E2C651C2E00E8413E /* Assets.xcassets */,
 				B6C656A02C651C2E00E8413E /* Preview Content */,
 			);
-			path = FetchChallenge;
+			path = "Fetch Challenge";
 			sourceTree = "<group>";
 		};
 		B6C656A02C651C2E00E8413E /* Preview Content */ = {

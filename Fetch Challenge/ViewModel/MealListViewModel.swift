@@ -16,7 +16,6 @@ class MealListViewModel: ObservableObject {
     func getMeals() async {
         do {
             meals = try await apiService.shared.getDessert()
-            print("Meals fetched in view model: \(meals)")
         } catch {
             let errorMessage = "Failed to load meals: \(error.localizedDescription)"
             print(errorMessage)
