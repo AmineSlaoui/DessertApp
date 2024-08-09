@@ -37,4 +37,9 @@ The app uses TheMealDB API to fetch dessert data. Two endpoints are used:
    * Endpoint: "https://themealdb.com/api/json/v1/1/lookup.php?i=MEAL_ID"
 
 
+## Features
+
+- **Dessert Recipes List**: Browse a list of dessert recipes fetched from the API.
+- **Recipe Details**: View detailed information about each recipe, including ingredients and their instructions.
+
 
