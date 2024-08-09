@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Make API calls and get meal info
 class apiService {
     static let shared = apiService()
     

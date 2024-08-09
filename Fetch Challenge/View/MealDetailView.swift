@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// View displays info about meal such as name, instructions, ingredients, measurements
 struct MealDetailView: View {
     let mealID: String
     @StateObject private var viewModel = MealDetailViewModel()

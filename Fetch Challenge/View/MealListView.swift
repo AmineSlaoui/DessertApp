@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+// View displays a list of dessert in alphabetical order
 struct MealListView: View {
     @StateObject private var viewModel = MealListViewModel()
     

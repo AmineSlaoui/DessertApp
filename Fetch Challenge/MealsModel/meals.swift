@@ -7,12 +7,14 @@
 
 import Foundation
 
+// Model holding meal info
 struct Meal: Decodable{
     let idMeal: String
     let strMeal: String
     let strMealThumb: String
 }
 
+// Model holdomg recipe info
 struct MealDetail: Decodable {
     let strMeal: String
     let strInstructions: String
